@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	background-color: #F7F7F7;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+}
+
+
+/*global*/
+
+::selection {
+  background: #FFDF47; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFDF47; /* Gecko Browsers */
+}
+
+.home{
+	height: 1300px;
+	background: url("../img/home_bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.home-img{
+   right: -50px;
+        top: 50px;
+  position: relative;
+}
+
+.home-img-item{
+	 height: 1500px;
+    position: absolute;
+    right: -150px;
+}
+.nav-white a{
+	color: white;
+}
+
+.nav-white a:hover{
+	color: #FFDF47;
+	text-decoration: none;
+}
+
+section{
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+h1{
+	color: white;
+	font-size: 75px;
+	font-weight: 700;
+}
+
+a{
+	color: #9640dd;
+}
+
+a:hover{
+	color: #da1866;
+	text-decoration: none;
+}
+
+.yellow{
+	color: #FFDF47;
+	font-weight: 900;
+}
+
+.home-date{
+	font-size: 48px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.home-subtitle{
+	color: white;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+/*align home titles*/
+
+.home-mt{
+	margin-top: 253px;
+    margin-left: 48px;
+}
+
+/*btn*/
+
+.btn-home{
+	color: #9640DD;
+	text-transform: uppercase;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 48px;
+	padding-right: 48px;
+}
+
+.btn-home:hover{
+	background-color: #FFDF47;
+	text-transform: uppercase;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 48px;
+	padding-right: 48px;
+}
+
+.shadow{
+	border: none;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.shadow:hover {
+  box-shadow: 0 28px 56px rgba(0,0,0,0.25), 0 20px 20px rgba(0,0,0,0.22);
+}
+
+.title-section{
+	color: #;
+}
+
+.ml-48{
+	margin-left: 48px;
+}
+
+.mt-48{
+	margin-top: 48px;
+}
+
+.mt-92{
+	margin-top: 92px;
+}
+
+.mb-92{
+	margin-bottom: 92px;
+}
+.mt-192{
+	margin-top: 192px;
+}
+
+
+.bsec{
+	margin-top: 60px;
+}
+
+/*CARD DECK*/
+
+.card-deck h3{
+	color: #283E55; 
+	padding: 24px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+
+.card-deck p{
+	color: #9CA3AC;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+
+
+/*APOIO*/
+
+.apoio-item{
+	max-height: 80px;
+	margin-bottom: 96px;
+}
+
+.apoio h1{
+	color: #9640DD;
+	text-transform: uppercase;
+}
+
+.apoio p{
+	color: #393669;
+}
+
+/*ABOUT*/
+
+.about h1{
+	color: #9640DD;
+	text-transform: uppercase;
+	font-size: 75px;
+	font-weight: 700;
+}
+
+
+.about{
+	font-size: 18px;
+	color: #393669;
+}
+
+.about a{
+	color: #1B479F;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.about a:hover{
+	color: #FFDF47;
+}
+
+.about-bg{
+	height: 1800px;
+	background: url("../img/about.svg");
+	background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: top right;
+}
+
+
+/*https://dribbble.com/shots/4166343-DrCash-Main-Page/attachments/952544*/
+/*EKAS*/
+
+
+.elas h1{
+	color: #9640DD;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.elas h2{
+	color: #9640DD;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 96px;
+}
+
+.elas p{
+	color: #9640DD;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 24px;
+}
+
+.elas img{
+	height: 380px;
+    width: auto;
+}
+
+.elas .talk-description{
+	font-size: 15px;
+	color: #37006b;
+}
+
+
+/*TESTIMONIALS*/
+
+.testimonials{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	height: 500px;
+	background: url("../img/bg1.png") no-repeat;
+	background-size: 100%;
+}
+
+
+/*NEWSLETTER*/
+
+.newsletter{
+	background: url("../img/bg2.png") no-repeat fixed;
+	background-size: 100% auto;
+}
+
+.newsletter h2{
+	color: white;
+	text-transform: uppercase;
+}
+
+
+/*schedule*/
+
+.vertical-text {
+	transform: rotate(270deg);
+	transform-origin:  left top 0;
+}
+
+.light{
+	color: #9640DD;
+	font-weight: 300;
+	text-transform: uppercase;
+	background-color: black;
+}
+
+
+.cp{
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+
+.cp p{
+	padding-top: 15px;
+}
+
